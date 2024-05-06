@@ -1,5 +1,5 @@
 <h2 align="center">
-愧怍的个人博客
+桃白白の的个人博客
 </h2><br>
 
 <pre align="center">
@@ -45,7 +45,6 @@
 │   └── doc.md
 ├── data
 │   ├── feature.ts                 # 特点
-│   ├── friends.ts                 # 友链
 │   ├── projects.ts                # 项目
 │   ├── skills.ts                  # 技术栈
 │   ├── resources.ts               # 资源

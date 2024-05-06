@@ -4,11 +4,8 @@ import { themes } from 'prism-react-renderer'
 import { GiscusConfig } from './src/components/Comment'
 import social from './data/social'
 
-const beian = '闽ICP备2020017848号-2'
-const beian1 = '闽公网安备35021102000847号'
-
 const config: Config = {
-  title: '愧怍',
+  title: '桃白白の',
   url: 'https://kuizuo.cn',
   baseUrl: '/',
   favicon: 'img/favicon.ico',
@@ -17,17 +14,13 @@ const config: Config = {
   customFields: {
     bio: '道阻且长，行则将至',
     description:
-      '是一个由愧怍创建的个人博客，主要分享编程开发知识和项目，该网站基于 React 驱动的静态网站生成器 Docusaurus 构建。',
+      '是一个由桃白白の创建的个人博客，主要分享编程开发知识和项目，该网站基于 React 驱动的静态网站生成器 Docusaurus 构建。',
   },
   themeConfig: {
-    // announcementBar: {
-    //   id: 'announcementBar-3',
-    //   content: ``,
-    // },
     metadata: [
       {
         name: 'author',
-        content: '愧怍',
+        content: '桃白白の',
       },
       {
         name: 'keywords',
@@ -45,7 +38,7 @@ const config: Config = {
     },
     navbar: {
       logo: {
-        alt: '愧怍',
+        alt: '桃白白の',
         src: 'img/logo.webp',
         srcDark: 'img/logo.webp',
       },
@@ -117,11 +110,7 @@ const config: Config = {
         },
       ],
       copyright: `
-        <p style="margin-bottom: 0;"><a href="http://beian.miit.gov.cn/">${beian}</a></p>
-        <p style="display: inline-flex; align-items: center;"><img style="height:20px;margin-right: 0.5rem;" src="/img/police.png" alt="police" height="20"/><a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=${
-          beian1.match(/\d+/)?.[0]
-        }" >${beian1}</a></p>
-        <p>Copyright © 2020 - PRESENT 愧怍 Built with Docusaurus.</p>
+        <p style="color: #12affa">Copyright © 2020 - PRESENT 桃白白の Built with Docusaurus.</p>
         `,
     },
     algolia: {
@@ -240,8 +229,8 @@ const config: Config = {
           defaultReadingTime({ content, options: { wordsPerMinute: 300 } }),
         feedOptions: {
           type: 'all',
-          title: '愧怍',
-          copyright: `Copyright © ${new Date().getFullYear()} 愧怍 Built with Docusaurus.<p><a href="http://beian.miit.gov.cn/" class="footer_lin">${beian}</a></p>`,
+          title: '桃白白の',
+          copyright: `Copyright © ${new Date().getFullYear()} 桃白白の Built with Docusaurus.<p></p>`,
         },
       },
     ],
@@ -251,7 +240,7 @@ const config: Config = {
       tagName: 'meta',
       attributes: {
         name: 'description',
-        content: '愧怍的个人博客',
+        content: '桃白白の的个人博客',
       },
     },
   ],
