@@ -160,12 +160,11 @@ article {
 }
 
 .navbar {
-  box-shadow: none;
-  background-color: transparent;
-
-  // background-image: radial-gradient(transparent 1px, #fff 1px);
-  // background-size: 3px 3px;
-  // backdrop-filter: saturate(50%) blur(4px);
+  box-shadow: 0 0 0.2rem #7b7b7b1a, 0 0.2rem 0.4rem #7b7b7b1a;
+  // 毛玻璃效果
+  background-color: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(12px);
+  opacity: 1;
 
   .navbar__title {
     margin-left: 12px;
@@ -332,4 +331,23 @@ div[class^='announcementBar_'] {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
+}
+::-webkit-scrollbar {
+  width: 7px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 20px;
+  background-color: var(--ifm-color-primary);
+}
+
+html[data-theme='dark'] ::-webkit-scrollbar-thumb {
+  border-radius: 20px;
+  background-color: var(--ifm-color-primary-light);
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 2px;
+  background-color: rgb(255 255 255 / 10%);
 }

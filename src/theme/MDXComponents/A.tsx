@@ -11,7 +11,6 @@ export default function MDXA(props: Props): JSX.Element {
 
   const iconMappings = {
     'github.com': 'simple-icons:github',
-    'twitter.com': 'logos:twitter',
   }
 
   const foundKey = Object.keys(iconMappings).find(key => {

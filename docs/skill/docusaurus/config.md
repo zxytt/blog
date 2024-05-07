@@ -63,7 +63,7 @@ export default config
 
 ![](https://raw.githubusercontent.com/kuizuo/github-stats/master/generated/languages.svg#gh-light-mode-only)
 
-### 友链、导航、项目 页面
+### 导航、项目 页面
 
 这三个页面是通过 [plugin-content-pages](https://docusaurus.io/zh-CN/docs/api/plugins/@docusaurus/plugin-content-pages) 实现自定义页面的，如果想了解页面的实现可以看[自定义页面](/docs/docusaurus-style#自定义页面)
 
@@ -78,14 +78,10 @@ export default config
 ```typescript title='social.ts' icon='logos:typescript-icon'
 export type Social = {
   github?: string
-  twitter?: string
   juejin?: string
   qq?: string
   wx?: string
-  cloudmusic?: string
-  zhihu?: string
   email?: string
-  discord?: string
 }
 ```
 

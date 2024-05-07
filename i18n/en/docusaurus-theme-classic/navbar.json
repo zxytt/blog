@@ -35,10 +35,6 @@
     "message": "Recommended Tools",
     "description": "Navbar item with label 工具推荐"
   },
-  "item.label.前端示例": {
-    "message": "Frontend Example",
-    "description": "Navbar item with label 前端示例"
-  },
   "item.label.在线代码": {
     "message": "Live Code",
     "description": "Navbar item with label 在线代码"

@@ -46,22 +46,21 @@ const config: Config = {
       items: [
         {
           label: '博客',
-          position: 'right',
+          position: 'left',
           to: 'blog',
         },
         {
           label: '项目',
-          position: 'right',
+          position: 'left',
           to: 'project',
         },
         {
           label: '更多',
-          position: 'right',
+          position: 'left',
           items: [
             { label: '归档', to: 'blog/archive' },
             { label: '笔记', to: 'docs/skill' },
             { label: '资源', to: 'resources' },
-            { label: '友链', to: 'friends' },
             { label: '工具推荐', to: 'docs/tools' },
           ],
         },
@@ -81,7 +80,6 @@ const config: Config = {
             { label: '归档', to: 'blog/archive' },
             { label: '技术笔记', to: 'docs/skill' },
             { label: '实战项目', to: 'project' },
-            { label: '前端示例', to: 'https://example.kuizuo.cn' },
           ],
         },
         {
@@ -89,15 +87,12 @@ const config: Config = {
           items: [
             { label: '关于我', to: '/about' },
             { label: 'GitHub', href: social.github.href },
-            { label: 'Twitter', href: social.twitter.href },
             { label: '掘金', href: social.juejin.href },
-            { label: 'Discord', href: social.discord.href },
           ],
         },
         {
           title: '更多',
           items: [
-            { label: '友链', position: 'right', to: 'friends' },
             { label: '导航', position: 'right', to: 'resources' },
             {
               html: `
@@ -110,7 +105,7 @@ const config: Config = {
         },
       ],
       copyright: `
-        <p style="color: #12affa">Copyright © 2020 - PRESENT 桃白白の Built with Docusaurus.</p>
+        <p style="color: #12affa">Copyright © 2023  - PRESENT 桃白白の Built with Docusaurus.</p>
         `,
     },
     algolia: {
