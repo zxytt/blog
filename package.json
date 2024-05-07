@@ -2,15 +2,14 @@
   "name": "blog",
   "version": "3.0.0",
   "author": {
-    "url": "https://github.com/kuizuo",
-    "email": "hi@kuizuo.cn",
+    "url": "https://github.com/zxytt",
     "name": "桃白白の"
   },
   "repository": {
-    "url": "https://github.com/kuizuo/blog",
+    "url": "https://github.com/zxytt/blog",
     "type": "git"
   },
-  "homepage": "https://kuizuo.cn",
+  "homepage": "https://zxytt-blog.vercel.app/",
   "license": "MIT",
   "scripts": {
     "docusaurus": "docusaurus",

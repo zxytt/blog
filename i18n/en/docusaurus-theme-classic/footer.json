@@ -37,7 +37,7 @@
   },
   "link.item.label.GitHub": {
     "message": "GitHub",
-    "description": "The label of footer link with label=GitHub linking to https://github.com/kuizuo"
+    "description": "The label of footer link with label=GitHub linking to https://github.com/zxytt"
   },
   "link.item.label.掘金": {
     "message": "Juejin",
@@ -48,7 +48,7 @@
     "description": "The label of footer link with label=导航 linking to resource"
   },
   "copyright": {
-    "message": "<p><a href=\"http://beian.miit.gov.cn/\" >闽ICP备2020017848号-2</a></p><p>Copyright © 2020 – PRESENT kuizuo Built with Docusaurus.</p>",
+    "message": "<p><a href=\"http://beian.miit.gov.cn/\" >闽ICP备2020017848号-2</a></p><p>Copyright © 2020 – PRESENT Tao pai pai Built with Docusaurus.</p>",
     "description": "The footer copyright"
   }
 }

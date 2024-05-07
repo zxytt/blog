@@ -6,10 +6,10 @@ import social from './data/social'
 
 const config: Config = {
   title: '桃白白の',
-  url: 'https://kuizuo.cn',
+  url: 'https://zxytt-blog.vercel.app/',
   baseUrl: '/',
   favicon: 'img/favicon.ico',
-  organizationName: 'kuizuo',
+  organizationName: 'tbb',
   projectName: 'blog',
   customFields: {
     bio: '道阻且长，行则将至',
@@ -141,12 +141,13 @@ const config: Config = {
       ],
     },
     giscus: {
-      repo: 'kuizuo/blog',
-      repoId: 'MDEwOlJlcG9zaXRvcnkzOTc2MjU2MTI=',
+      repo: 'zxytt/blog',
+      repoId: 'R_kgDOL4OMhw=',
       category: 'General',
-      categoryId: 'DIC_kwDOF7NJDM4CPK95',
+      categoryId: 'DIC_kwDOL4OMh84CfMby',
       theme: 'light',
       darkTheme: 'dark_dimmed',
+      loading: 'lazy',
     } satisfies Partial<GiscusConfig>,
     tableOfContents: {
       minHeadingLevel: 2,
@@ -212,8 +213,6 @@ const config: Config = {
       './src/plugin/plugin-content-blog', // 为了实现全局 blog 数据，必须改写 plugin-content-blog 插件
       {
         path: 'blog',
-        editUrl: ({ locale, blogDirPath, blogPath, permalink }) =>
-          `https://github.com/kuizuo/blog/edit/main/${blogDirPath}/${blogPath}`,
         editLocalizedFiles: false,
         blogDescription: '代码人生：编织技术与生活的博客之旅',
         blogSidebarCount: 10,

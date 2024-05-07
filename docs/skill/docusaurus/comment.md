@@ -50,7 +50,7 @@ Waline：需要搭建后端服务与数据库服务，提供评论与浏览量�
 
 ```javascript title='docusaurus.config.ts' icon='logos:docusaurus'
 giscus: {
-  repo: 'kuizuo/blog',
+  repo: 'zxytt/blog',
   repoId: 'MDEwOlJlcG9zaXRvcnkzOTc2Mxxxxx',
   category: 'General',
   categoryId: 'DIC_kwDOF7NJDM4CPK95',
