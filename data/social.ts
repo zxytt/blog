@@ -14,7 +14,7 @@ type SocialValue = {
 }
 
 const social: Social = {
-  github: 'https://github.com/kuizuo',
+  github: 'https://github.com/zxytt',
   juejin: 'https://juejin.cn/user/844878709273351',
   qq: '',
   wx: '',

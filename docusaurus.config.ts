@@ -28,7 +28,7 @@ const config: Config = {
       },
       {
         name: 'keywords',
-        content: '编程爱好者, Web开发者, 写过爬虫, 学过逆向, 主攻ts全栈',
+        content: '编程爱好者, Web开发者, 全栈',
       },
     ],
     docs: {
@@ -41,6 +41,8 @@ const config: Config = {
         alt: '桃白白の',
         src: 'img/logo.webp',
         srcDark: 'img/logo.webp',
+        width: 52,
+        height: 52,
       },
       hideOnScroll: true,
       items: [
@@ -109,9 +111,9 @@ const config: Config = {
         `,
     },
     algolia: {
-      appId: 'GV6YN1ODMO',
-      apiKey: '50303937b0e4630bec4a20a14e3b7872',
-      indexName: 'kuizuo',
+      appId: 'W37IN72FCX',
+      apiKey: '9db279c72c2c1a35d36d94d41e523277',
+      indexName: 'zxytt-vercel',
     },
     prism: {
       theme: themes.oneLight,

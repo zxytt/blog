@@ -351,3 +351,7 @@ html[data-theme='dark'] ::-webkit-scrollbar-thumb {
   border-radius: 2px;
   background-color: rgb(255 255 255 / 10%);
 }
+.navbar__logo img{
+  margin-top: -10px;
+  height: auto;
+}
