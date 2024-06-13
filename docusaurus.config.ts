@@ -112,7 +112,7 @@ const config: Config = {
     },
     algolia: {
       appId: 'W37IN72FCX',
-      apiKey: '9db279c72c2c1a35d36d94d41e523277',
+      apiKey: 'efe3576392bda7698fe45aa3e6d108d7',
       indexName: 'zxytt-vercel',
     },
     prism: {
